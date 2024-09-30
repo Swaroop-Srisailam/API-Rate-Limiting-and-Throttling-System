@@ -1,4 +1,4 @@
-from redis_store import track_request, get_request_count
+from redis_store import track_request
 
 # Defining rate limits for different user tiers as provided in document
 RATE_LIMITS = {
